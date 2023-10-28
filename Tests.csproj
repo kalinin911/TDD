@@ -685,6 +685,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Editor.csproj">
+      <Project>{3257d0a1-6d3e-bec5-7e1d-83baff9ff158}</Project>
+      <Name>Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
